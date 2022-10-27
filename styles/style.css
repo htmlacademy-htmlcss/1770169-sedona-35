@@ -159,7 +159,7 @@ body {
   background-color: #615048;
 }
 
-.button-navigation:focus {
+.button-navigation:focus-visible {
   background-color: #615048;
 }
 
@@ -399,10 +399,9 @@ body {
 
 .search-hotel-button:hover {
   background-color: #615048;
-
 }
 
-.search-hotel-button:focus {
+.search-hotel-button:focus-visible {
   background-color: #615048;
 }
 
@@ -447,7 +446,7 @@ body {
   background-color: #68A2CA;
 }
 
-.newsletter-button:focus {
+.newsletter-button:focus-visible {
   background-color: #68A2CA;
 }
 
@@ -485,7 +484,7 @@ body {
   fill: #68A2CA;
 }
 
-.footer-social-logo:focus {
+.footer-social-logo:focus-visible {
   fill: #68A2CA;
 }
 
@@ -507,7 +506,7 @@ body {
   color: #756157;
 }
 
-.contacts-phone:focus {
+.contacts-phone:focus-visible {
   color: #756157;
 }
 
@@ -527,7 +526,7 @@ body {
   fill: #756157;
 }
 
-.footer-developer-logo:focus {
+.footer-developer-logo:focus-visible {
   fill: #756157;
 }
 
