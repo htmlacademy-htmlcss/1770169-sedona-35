@@ -142,18 +142,18 @@ body {
   fill: #000000;
 }
 
-.navigation-link:hover .navigation-search-icon path,
-.navigation-link:hover .navigation-favorite-icon path {
+.navigation-search-icon:hover path,
+.navigation-favorite-icon:hover path {
   fill: #756157;
 }
 
-.navigation-link:focus-visible .navigation-search-icon path,
-.navigation-link:focus-visible .navigation-favorite-icon path {
+.navigation-search-icon:focus-visible path,
+.navigation-favorite-icon:focus-visible path {
   fill: #756157;
 }
 
-.navigation-link:active .navigation-search-icon path,
-.navigation-link:active .navigation-favorite-icon path {
+.navigation-search-icon:active path,
+.navigation-favorite-icon:active path {
   fill: rgba(117, 97, 87, 0.3);
 }
 
