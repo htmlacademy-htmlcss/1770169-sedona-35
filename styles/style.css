@@ -476,6 +476,7 @@ body {
 
 .newsletter-form-field {
   width: 452px;
+  min-height: 52px;
   font-weight: 400;
   border-radius: 4px 0 0 4px;
 }
@@ -623,7 +624,7 @@ body {
   position: relative;
   box-sizing: border-box;
   margin: auto;
-  padding: 63px 70px;
+  padding: 64px 70px;
   background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -746,7 +747,7 @@ input[type="number"] {
 .children-field {
   z-index: 1;
   width: 30px;
-  padding: 12px 10px;
+  padding: 14px 10px;
   line-height: 20px;
   border-radius: 0;
 }
@@ -763,7 +764,8 @@ input[type="number"] {
 .button-increment,
 .button-decrement {
   width: 40px;
-  padding: 0;
+  height: 48px;
+  padding: 14px 10px;
   background-color: #f2f2f2;
 }
 
@@ -1235,11 +1237,9 @@ input[type="number"] {
 
 .select-control {
   width: 100%;
-  padding: 12px 99px 12px 14px;
+  padding: 14px 99px 14px 20px;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: -1px;
-  word-spacing: 2px;
   color: #333333;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
@@ -1278,12 +1278,12 @@ input[type="number"] {
   stroke: #E5E5E5;
 }
 
-.card-grid-toggle:hover .card-grid-toggle-icon rect,
-.card-grid-toggle:active .card-grid-toggle-icon rect {
+.card-grid-toggle-icon:hover rect,
+.card-grid-toggle-icon:active rect {
   stroke: #000000;
 }
 
-.card-grid-toggle:focus-visible .card-grid-toggle-icon rect {
+.card-grid-toggle-icon:focus-visible rect {
   stroke: #68a2ca;
 }
 
