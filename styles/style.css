@@ -61,7 +61,7 @@ body {
   display: flex;
 }
 
-.header-link {
+.header-logo {
   position: absolute;
   margin-right: 30px;
   margin-left: 70px;
